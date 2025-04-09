@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BA3ECEC76CC49CA76D6AEBF /* Pods_GMClustering.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01A9C946B7D740B6F687151 /* Pods_GMClustering.framework */; };
+		58B508B82E6E08489907ACA9 /* Pods_GMClusteringTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73DDADD01617FBF5FB622C23 /* Pods_GMClusteringTests.framework */; };
+		FD88CD3F3D7B3FDF5E32D504 /* Pods_GMClustering_GMClusteringUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3034128DE07941AB9261025F /* Pods_GMClustering_GMClusteringUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A8991DB2D9ED5D300A12CAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A8991C12D9ED5D100A12CAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A8991C82D9ED5D100A12CAA;
+			remoteInfo = GMClustering;
+		};
+		0A8991E52D9ED5D300A12CAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A8991C12D9ED5D100A12CAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A8991C82D9ED5D100A12CAA;
+			remoteInfo = GMClustering;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A8991C92D9ED5D100A12CAA /* GMClustering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GMClustering.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A8991DA2D9ED5D300A12CAA /* GMClusteringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GMClusteringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A8991E42D9ED5D300A12CAA /* GMClusteringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GMClusteringUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F3B3E35EE3D01C4D2BD5F14 /* Pods-GMClustering.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMClustering.debug.xcconfig"; path = "Target Support Files/Pods-GMClustering/Pods-GMClustering.debug.xcconfig"; sourceTree = "<group>"; };
+		14F5F864D0580D235D97DF23 /* Pods-GMClustering-GMClusteringUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMClustering-GMClusteringUITests.release.xcconfig"; path = "Target Support Files/Pods-GMClustering-GMClusteringUITests/Pods-GMClustering-GMClusteringUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3034128DE07941AB9261025F /* Pods_GMClustering_GMClusteringUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GMClustering_GMClusteringUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5376202E11C932C535F47B7B /* Pods-GMClusteringTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMClusteringTests.debug.xcconfig"; path = "Target Support Files/Pods-GMClusteringTests/Pods-GMClusteringTests.debug.xcconfig"; sourceTree = "<group>"; };
+		61A1D8CAC8C762675A9E8CF7 /* Pods-GMClustering.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMClustering.release.xcconfig"; path = "Target Support Files/Pods-GMClustering/Pods-GMClustering.release.xcconfig"; sourceTree = "<group>"; };
+		73DDADD01617FBF5FB622C23 /* Pods_GMClusteringTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GMClusteringTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B0E03A4C8A7BF903DEF4E75 /* Pods-GMClustering-GMClusteringUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMClustering-GMClusteringUITests.debug.xcconfig"; path = "Target Support Files/Pods-GMClustering-GMClusteringUITests/Pods-GMClustering-GMClusteringUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B53DF32B991479A84220E2B4 /* Pods-GMClusteringTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GMClusteringTests.release.xcconfig"; path = "Target Support Files/Pods-GMClusteringTests/Pods-GMClusteringTests.release.xcconfig"; sourceTree = "<group>"; };
+		C01A9C946B7D740B6F687151 /* Pods_GMClustering.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GMClustering.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		0A8991CB2D9ED5D100A12CAA /* GMClustering */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GMClustering;
+			sourceTree = "<group>";
+		};
+		0A8991DD2D9ED5D300A12CAA /* GMClusteringTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GMClusteringTests;
+			sourceTree = "<group>";
+		};
+		0A8991E72D9ED5D300A12CAA /* GMClusteringUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GMClusteringUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A8991C62D9ED5D100A12CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BA3ECEC76CC49CA76D6AEBF /* Pods_GMClustering.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8991D72D9ED5D300A12CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B508B82E6E08489907ACA9 /* Pods_GMClusteringTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8991E12D9ED5D300A12CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD88CD3F3D7B3FDF5E32D504 /* Pods_GMClustering_GMClusteringUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A8991C02D9ED5D100A12CAA = {
+			isa = PBXGroup;
+			children = (
+				0A8991CB2D9ED5D100A12CAA /* GMClustering */,
+				0A8991DD2D9ED5D300A12CAA /* GMClusteringTests */,
+				0A8991E72D9ED5D300A12CAA /* GMClusteringUITests */,
+				0A8991CA2D9ED5D100A12CAA /* Products */,
+				54B62FD7048A5F2A67A3AE73 /* Pods */,
+				2EFA70666CEED217998ACEA6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0A8991CA2D9ED5D100A12CAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A8991C92D9ED5D100A12CAA /* GMClustering.app */,
+				0A8991DA2D9ED5D300A12CAA /* GMClusteringTests.xctest */,
+				0A8991E42D9ED5D300A12CAA /* GMClusteringUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EFA70666CEED217998ACEA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C01A9C946B7D740B6F687151 /* Pods_GMClustering.framework */,
+				3034128DE07941AB9261025F /* Pods_GMClustering_GMClusteringUITests.framework */,
+				73DDADD01617FBF5FB622C23 /* Pods_GMClusteringTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		54B62FD7048A5F2A67A3AE73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F3B3E35EE3D01C4D2BD5F14 /* Pods-GMClustering.debug.xcconfig */,
+				61A1D8CAC8C762675A9E8CF7 /* Pods-GMClustering.release.xcconfig */,
+				8B0E03A4C8A7BF903DEF4E75 /* Pods-GMClustering-GMClusteringUITests.debug.xcconfig */,
+				14F5F864D0580D235D97DF23 /* Pods-GMClustering-GMClusteringUITests.release.xcconfig */,
+				5376202E11C932C535F47B7B /* Pods-GMClusteringTests.debug.xcconfig */,
+				B53DF32B991479A84220E2B4 /* Pods-GMClusteringTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A8991C82D9ED5D100A12CAA /* GMClustering */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A8991EE2D9ED5D300A12CAA /* Build configuration list for PBXNativeTarget "GMClustering" */;
+			buildPhases = (
+				E87F98AE0CA4157086D21E3D /* [CP] Check Pods Manifest.lock */,
+				0A8991C52D9ED5D100A12CAA /* Sources */,
+				0A8991C62D9ED5D100A12CAA /* Frameworks */,
+				0A8991C72D9ED5D100A12CAA /* Resources */,
+				35D78D39C63892C11866F5EC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0A8991CB2D9ED5D100A12CAA /* GMClustering */,
+			);
+			name = GMClustering;
+			productName = GMClustering;
+			productReference = 0A8991C92D9ED5D100A12CAA /* GMClustering.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A8991D92D9ED5D300A12CAA /* GMClusteringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A8991F12D9ED5D300A12CAA /* Build configuration list for PBXNativeTarget "GMClusteringTests" */;
+			buildPhases = (
+				190F3F177E8CBC007E156B8B /* [CP] Check Pods Manifest.lock */,
+				0A8991D62D9ED5D300A12CAA /* Sources */,
+				0A8991D72D9ED5D300A12CAA /* Frameworks */,
+				0A8991D82D9ED5D300A12CAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A8991DC2D9ED5D300A12CAA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0A8991DD2D9ED5D300A12CAA /* GMClusteringTests */,
+			);
+			name = GMClusteringTests;
+			productName = GMClusteringTests;
+			productReference = 0A8991DA2D9ED5D300A12CAA /* GMClusteringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A8991E32D9ED5D300A12CAA /* GMClusteringUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A8991F42D9ED5D300A12CAA /* Build configuration list for PBXNativeTarget "GMClusteringUITests" */;
+			buildPhases = (
+				6CBD06C920EEA819C3BCD191 /* [CP] Check Pods Manifest.lock */,
+				0A8991E02D9ED5D300A12CAA /* Sources */,
+				0A8991E12D9ED5D300A12CAA /* Frameworks */,
+				0A8991E22D9ED5D300A12CAA /* Resources */,
+				BAA9B978E998671D09598349 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A8991E62D9ED5D300A12CAA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0A8991E72D9ED5D300A12CAA /* GMClusteringUITests */,
+			);
+			name = GMClusteringUITests;
+			productName = GMClusteringUITests;
+			productReference = 0A8991E42D9ED5D300A12CAA /* GMClusteringUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A8991C12D9ED5D100A12CAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					0A8991C82D9ED5D100A12CAA = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					0A8991D92D9ED5D300A12CAA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 0A8991C82D9ED5D100A12CAA;
+					};
+					0A8991E32D9ED5D300A12CAA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 0A8991C82D9ED5D100A12CAA;
+					};
+				};
+			};
+			buildConfigurationList = 0A8991C42D9ED5D100A12CAA /* Build configuration list for PBXProject "GMClustering" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A8991C02D9ED5D100A12CAA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0A8991CA2D9ED5D100A12CAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A8991C82D9ED5D100A12CAA /* GMClustering */,
+				0A8991D92D9ED5D300A12CAA /* GMClusteringTests */,
+				0A8991E32D9ED5D300A12CAA /* GMClusteringUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A8991C72D9ED5D100A12CAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8991D82D9ED5D300A12CAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8991E22D9ED5D300A12CAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		190F3F177E8CBC007E156B8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GMClusteringTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35D78D39C63892C11866F5EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GMClustering/Pods-GMClustering-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GMClustering/Pods-GMClustering-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GMClustering/Pods-GMClustering-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CBD06C920EEA819C3BCD191 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GMClustering-GMClusteringUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAA9B978E998671D09598349 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GMClustering-GMClusteringUITests/Pods-GMClustering-GMClusteringUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GMClustering-GMClusteringUITests/Pods-GMClustering-GMClusteringUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GMClustering-GMClusteringUITests/Pods-GMClustering-GMClusteringUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E87F98AE0CA4157086D21E3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GMClustering-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A8991C52D9ED5D100A12CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8991D62D9ED5D300A12CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8991E02D9ED5D300A12CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A8991DC2D9ED5D300A12CAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A8991C82D9ED5D100A12CAA /* GMClustering */;
+			targetProxy = 0A8991DB2D9ED5D300A12CAA /* PBXContainerItemProxy */;
+		};
+		0A8991E62D9ED5D300A12CAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A8991C82D9ED5D100A12CAA /* GMClustering */;
+			targetProxy = 0A8991E52D9ED5D300A12CAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A8991EC2D9ED5D300A12CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A8991ED2D9ED5D300A12CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		0A8991EF2D9ED5D300A12CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F3B3E35EE3D01C4D2BD5F14 /* Pods-GMClustering.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GMClustering/GMClustering.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GMClustering/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GMClustering.com.GMClustering;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		0A8991F02D9ED5D300A12CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61A1D8CAC8C762675A9E8CF7 /* Pods-GMClustering.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GMClustering/GMClustering.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GMClustering/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GMClustering.com.GMClustering;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		0A8991F22D9ED5D300A12CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5376202E11C932C535F47B7B /* Pods-GMClusteringTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GMClustering.com.GMClusteringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GMClustering.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GMClustering";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		0A8991F32D9ED5D300A12CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B53DF32B991479A84220E2B4 /* Pods-GMClusteringTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GMClustering.com.GMClusteringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GMClustering.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GMClustering";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		0A8991F52D9ED5D300A12CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B0E03A4C8A7BF903DEF4E75 /* Pods-GMClustering-GMClusteringUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GMClustering.com.GMClusteringUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = GMClustering;
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		0A8991F62D9ED5D300A12CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14F5F864D0580D235D97DF23 /* Pods-GMClustering-GMClusteringUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GMClustering.com.GMClusteringUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = GMClustering;
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A8991C42D9ED5D100A12CAA /* Build configuration list for PBXProject "GMClustering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8991EC2D9ED5D300A12CAA /* Debug */,
+				0A8991ED2D9ED5D300A12CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A8991EE2D9ED5D300A12CAA /* Build configuration list for PBXNativeTarget "GMClustering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8991EF2D9ED5D300A12CAA /* Debug */,
+				0A8991F02D9ED5D300A12CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A8991F12D9ED5D300A12CAA /* Build configuration list for PBXNativeTarget "GMClusteringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8991F22D9ED5D300A12CAA /* Debug */,
+				0A8991F32D9ED5D300A12CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A8991F42D9ED5D300A12CAA /* Build configuration list for PBXNativeTarget "GMClusteringUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8991F52D9ED5D300A12CAA /* Debug */,
+				0A8991F62D9ED5D300A12CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A8991C12D9ED5D100A12CAA /* Project object */;
+}
