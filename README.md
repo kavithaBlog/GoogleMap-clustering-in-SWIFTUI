@@ -18,8 +18,7 @@ $ Pod install
 
 ## Google Map implementation
 
-After Pod installtion we can import the googlemap into the project.To start implementing this feature we need Google API key.A [Google Cloud Platform API key](https://developers.google.com/maps/documentation/ios-sdk/start#get-key) with Maps SDK for iOS.
-. Once key has generated add this into appdelegate function as below
+After Pod installtion we can import the googlemap into the project.To start implementing this feature we need Google API key.A [Google Cloud Platform API key](https://developers.google.com/maps/documentation/ios-sdk/start#get-key) with Maps SDK for iOS.Once key has generated add this into appdelegate function as below
 
 GMSServices.provideAPIKey("YourApiKey")
 
