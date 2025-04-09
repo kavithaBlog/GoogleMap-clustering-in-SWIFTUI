@@ -7,12 +7,12 @@ The purpose of this repository is to provide information about clustering Google
 
 To add the googlemap into project need to add the following library into podfile
 
-pod 'GoogleMaps'
-pod 'Google-Maps-iOS-Utils'
+$ pod 'GoogleMaps'
+$ pod 'Google-Maps-iOS-Utils'
 
 after adding the library run the below code to complete the setup.
 
-Pod install
+$ Pod install
 
 
 ## Google Map implementation
